@@ -5,8 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <header class="flex p-[20px] justify-around items-center">
+        <nav class="flex gap-x-[20px] text-[#222222]">
+            <a href="">Booking</a>
+            <a href="">Facilities</a>
+            <a href="">About Us</a>
+            <a href="">Location</a>
+            <a href="">Contact</a>
+        </nav>
+        <button class="p-[10px]  text-white bg-green-600 rounded-full hover:bg-red-600">Login</button>
+    </header>
+    <section class="flex flex-col relative lg:flex-row bg-[#24AB700A] rounded-tr-[40px] rounded-tl-[40px]  justify-center items-center m-auto gap-x-[30px] w-fit">
+        <aside class="p-[30px] flex flex-col gap-y-10">
+            <h1 class="text-5xl font-medium ">Find your perfect<br> place to stay</h1>
+            <p class="text-xl text-gray-400">Lorem Ipsum is simply dummy text of the printing and<br> typesetting industry.</p>
+<div class="flex gap-x-[10px] items-center">
+    <img src="./imgs/Group 2.png" alt="">
+    <p class="font-bold">Watch video</p>
+</div>
+        </aside>
+        <aside>
+            <img src="./imgs/image.png" alt="">
+        </aside>
+    </section>
+    <div class="absolute bottom-[50px] left-[300px] shadow-lg shadow-gray-300 hidden lg:flex flex bg-white rounded-full items-center justify-center ">
+<div class="flex flex-col gap-y-[10px] p-[20px]  border-r-2 border-gray-200 pr-[45px]">
+    <div class="flex gap-x-[10px] items-center">
+    <i class="text-green-700 fa-solid fa-location-pin"></i>
+    <p class="text-lg font-medium">Location</p>
+    </div>
+    <p class="text-gray-500">United States</p>
+</div>
+<div class="flex flex-col gap-y-[10px] p-[20px] border-r-2 border-gray-200 pr-[45px]">
+    <div class="flex gap-x-[10px] items-center">
+   <i class="text-green-700 fa-solid fa-calendar-days"></i>
+    <p class="text-lg font-medium">Chack in</p>
+    </div>
+    <p class="text-gray-500">10 Jun 2021</p>
+</div>
+<div class="flex flex-col gap-y-[10px] p-[20px] border-r-2 border-gray-200 pr-[45px]">
+    <div class="flex gap-x-[10px] items-center">
+   <i class="text-green-700 fa-solid fa-calendar-days"></i>
+    <p class="text-lg font-medium">Chack in</p>
+    </div>
+    <p class="text-gray-500">15 Jun 2021</p>
+</div>
+<div class="flex flex-col gap-y-[10px] p-[20px]  pr-[45px]">
+    <div class="flex gap-x-[10px] items-center">
+   <i class="text-green-700 fa-solid fa-user"></i>
+    <p class="text-lg font-medium">Rooms for</p>
+    </div>
+    <p class="text-gray-500">1 room, 2 guests</p>
+</div>
+<button class="text-white bg-green-700 p-[25px] h-full  rounded-full"><i class="fa-solid fa-magnifying-glass"></i> Search...</button>
+    </div>
 </body>
 </html>
