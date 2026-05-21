@@ -8,67 +8,59 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <section class="mt-[100px] p-[40px] flex flex-col gap-y-15">
-        <div class="flex flex-col gap-y-5">
-        <h1 class="text-6xl font-medium">Our most popular Hotels</h1>
-        <div class="flex justify-between items-center">
-        <p class="text-xl text-gray-500">Lorem Ipsum is simply dummy text of the printing<br> and typesetting industry.</p>
-        <button class="hidden lg:flex text-green-600 bg-green-200 p-[15px] rounded-full">View All</button>
-        </div>
-       </div>
-        <div class="flex flex-col gap-y-10 lg:flex-row gap-x-10 justify-center items-center">
-            <div class="flex flex-col gap-y-5">
-                <div>
-               <img src="./image (1).png" alt=""> 
-               </div>
-               <p class="text-green-600">London NW8 7JT England</p>
-               <h2 class="text-2xl font-medium">Danubius Hotel Regents Park</h2>
-               <div class="flex gap-[10px] items-center">
-               <h3 class="border-r-2 border-gray-200 pr-[40px] text-lg">$200 Par Night</h3>
-              
-                <i class="text-red-600 fa-solid fa-star"></i>
-                <i class="text-red-600 fa-solid fa-star"></i>
-                <i class="text-red-600 fa-solid fa-star"></i>
-                <i class="text-red-600 fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-               <p class="text-lg">4.8</p>
-               </div>
-            </div>
-              <div class="flex flex-col gap-y-5">
-                <div>
-               <img src="./image (2).png" alt=""> 
-               </div>
-               <p class="text-green-600">London NW8 7JT England</p>
-               <h2 class="text-2xl font-medium">The Resident Soho</h2>
-               <div class="flex gap-[10px] items-center">
-               <h3 class="border-r-2 border-gray-200 pr-[40px] text-lg">$200 Par Night</h3>
-              
-                <i class="text-red-600 fa-solid fa-star"></i>
-                <i class="text-red-600 fa-solid fa-star"></i>
-                <i class="text-red-600 fa-solid fa-star"></i>
-                <i class="text-red-600 fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-               <p class="text-lg">4.8</p>
-               </div>
-            </div>
-              <div class="flex flex-col gap-y-5">
-                <div>
-               <img src="./image (3).png" alt=""> 
-               </div>
-               <p class="text-green-600">London NW8 7JT England</p>
-               <h2 class="text-2xl font-medium">London Bridge Hotel</h2>
-               <div class="flex gap-[10px] items-center">
-               <h3 class="border-r-2 border-gray-200 pr-[40px] text-lg">$200 Par Night</h3>
-              
-                <i class="text-red-600 fa-solid fa-star"></i>
-                <i class="text-red-600 fa-solid fa-star"></i>
-                <i class="text-red-600 fa-solid fa-star"></i>
-                <i class="text-red-600 fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-               <p class="text-lg">4.8</p>
-               </div>
-            </div>
-        </div>
+    <header class="flex p-[20px] justify-around items-center">
+        <nav class="flex gap-x-[20px] text-[#222222]">
+            <a href="">Booking</a>
+            <a href="">Facilities</a>
+            <a href="">About Us</a>
+            <a href="">Location</a>
+            <a href="">Contact</a>
+        </nav>
+        <button class="p-[10px]  text-white bg-green-600 rounded-full hover:bg-red-600">Login</button>
+    </header>
+    <section class="flex flex-col relative lg:flex-row bg-[#24AB700A] rounded-tr-[40px] rounded-tl-[40px]  justify-center items-center m-auto gap-x-[30px] w-fit">
+        <aside class="p-[30px] flex flex-col gap-y-10">
+            <h1 class="text-5xl font-medium ">Find your perfect<br> place to stay</h1>
+            <p class="text-xl text-gray-400">Lorem Ipsum is simply dummy text of the printing and<br> typesetting industry.</p>
+<div class="flex gap-x-[10px] items-center">
+    <img src="./imgs/Group 2.png" alt="">
+    <p class="font-bold">Watch video</p>
+</div>
+        </aside>
+        <aside>
+            <img src="./imgs/image.png" alt="">
+        </aside>
     </section>
+    <div class="absolute bottom-[50px] left-[300px] shadow-lg shadow-gray-300 hidden lg:flex flex bg-white rounded-full items-center justify-center ">
+<div class="flex flex-col gap-y-[10px] p-[20px]  border-r-2 border-gray-200 pr-[45px]">
+    <div class="flex gap-x-[10px] items-center">
+    <i class="text-green-700 fa-solid fa-location-pin"></i>
+    <p class="text-lg font-medium">Location</p>
+    </div>
+    <p class="text-gray-500">United States</p>
+</div>
+<div class="flex flex-col gap-y-[10px] p-[20px] border-r-2 border-gray-200 pr-[45px]">
+    <div class="flex gap-x-[10px] items-center">
+   <i class="text-green-700 fa-solid fa-calendar-days"></i>
+    <p class="text-lg font-medium">Chack in</p>
+    </div>
+    <p class="text-gray-500">10 Jun 2021</p>
+</div>
+<div class="flex flex-col gap-y-[10px] p-[20px] border-r-2 border-gray-200 pr-[45px]">
+    <div class="flex gap-x-[10px] items-center">
+   <i class="text-green-700 fa-solid fa-calendar-days"></i>
+    <p class="text-lg font-medium">Chack in</p>
+    </div>
+    <p class="text-gray-500">15 Jun 2021</p>
+</div>
+<div class="flex flex-col gap-y-[10px] p-[20px]  pr-[45px]">
+    <div class="flex gap-x-[10px] items-center">
+   <i class="text-green-700 fa-solid fa-user"></i>
+    <p class="text-lg font-medium">Rooms for</p>
+    </div>
+    <p class="text-gray-500">1 room, 2 guests</p>
+</div>
+<button class="text-white bg-green-700 p-[25px] h-full  rounded-full"><i class="fa-solid fa-magnifying-glass"></i> Search...</button>
+    </div>
 </body>
 </html>
